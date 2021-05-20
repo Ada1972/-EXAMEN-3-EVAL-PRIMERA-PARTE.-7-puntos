@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <title>Calculadora de medias</title>
+</head>
+
+<body>
+    <header>
+        <h2>Calculadora de medias</h2>
+    </header>
+    <main>
+        <div id="origen">
+            <form id="origen_form">
+            <div>
+                <label for="programacion">Programación</label>
+            </div>
+            <div><input type="text" name="programacion"  id="prg"></div>
+            <div><label for="base_de_datos">Bases de datos</label>
+            </div>
+            <div><input type="text" name="base_de_datos" id="bd"></div>
+            <div><label for="entornos_de_desarrollo">Entornos de desarrollo</label></div>
+           <div><input type="text" class=name="entornos_de_desarrollo" id="ed"></div>
+            <div><label for="lenguaje_de_marcas">Lenguajes de marcas</label></div>
+             <div><input type="text" class name="lenguaje_de_marcas" id="lm"></div>    
+        <div>
+        <button type="text" class="boton" onclick="return porPantalla();">Calcular</button></div> 
+</form>
+</div>
+<div id="destino">
+       <form id="destino_form">
+            <div><label for="media">Media</label>
+        </div>
+ <!--READONLY DESACTIVA EL CAMPO PARA ESCRITURA=DISABLE-->              
+        <div><input type="text" name="media" id="avg" readonly></div>
+        </form>
+</div>    
+<div><!--f-->
+        <footer id="footer">
+            <div class="linea"></div>
+      <div>
+          <div>
+          <ul>
+              <li>Un producto realizado por Ana Gómez</li>
+              <li>Dentro del módulo LLMM</li>
+             
+          </ul>
+          </div>
+      </div>
+      <div>
+          <div>
+          <ul>
+              <li>Dirección : Carrer de Dolores Ibarrúri,32</li>
+              <li>46920 Mislata, Valencia</li>
+          </ul>
+          </div> 
+      </div>
+      </div> 
+</div>
+</footer>
+</main>
+<script src="js/app.js"></script>
+  </body>
+  </html>
+   
